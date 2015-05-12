@@ -1,4 +1,4 @@
-SlackBot = require './src/slack'
+SlackBot = require './src/slack_no_integration'
 {SlackTextMessage, SlackRawMessage, SlackBotMessage} = require './src/message'
 {SlackRawListener, SlackBotListener} = require './src/listener'
 
